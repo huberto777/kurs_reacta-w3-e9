@@ -59,6 +59,7 @@ class TimeboxCreator extends React.Component {
 class TimeboxList extends React.Component {
   state = {
     editMode: false,
+    currentEditTimebox: null,
     timeboxes: [
       {
         id: "a",
